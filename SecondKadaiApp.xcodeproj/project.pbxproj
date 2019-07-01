@@ -12,6 +12,7 @@
 		927B1F0122C96B4700246F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927B1EFF22C96B4700246F05 /* Main.storyboard */; };
 		927B1F0322C96B4900246F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927B1F0222C96B4900246F05 /* Assets.xcassets */; };
 		927B1F0622C96B4900246F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927B1F0422C96B4900246F05 /* LaunchScreen.storyboard */; };
+		927B1F0E22C96D4B00246F05 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B1F0D22C96D4B00246F05 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		927B1F0222C96B4900246F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927B1F0522C96B4900246F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927B1F0722C96B4900246F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927B1F0D22C96D4B00246F05 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				927B1F0222C96B4900246F05 /* Assets.xcassets */,
 				927B1F0422C96B4900246F05 /* LaunchScreen.storyboard */,
 				927B1F0722C96B4900246F05 /* Info.plist */,
+				927B1F0D22C96D4B00246F05 /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -90,6 +93,9 @@
 		927B1EF022C96B4700246F05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"ここに名前を入力",
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "study nh";
@@ -137,6 +143,7 @@
 			files = (
 				927B1EFE22C96B4700246F05 /* ViewController.swift in Sources */,
 				927B1EFC22C96B4700246F05 /* AppDelegate.swift in Sources */,
+				927B1F0E22C96D4B00246F05 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
