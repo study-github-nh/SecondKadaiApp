@@ -19,14 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8A-ha-PdL">
-                                <rect key="frame" x="100" y="211" width="175" height="30"/>
+                                <rect key="frame" x="172" y="211" width="31" height="30"/>
                                 <state key="normal" title="挨拶"/>
                                 <connections>
                                     <segue destination="CWE-gf-gbR" kind="show" id="SMh-qf-hYu"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ここに入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qOv-O4-v4S">
-                                <rect key="frame" x="100" y="161" width="175" height="30"/>
+                                <rect key="frame" x="141.5" y="161" width="92.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -35,7 +35,7 @@
                                 </attributedString>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-qk-eZE">
-                                <rect key="frame" x="75" y="120" width="225" height="21"/>
+                                <rect key="frame" x="92" y="120" width="191" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,15 +43,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qOv-O4-v4S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="GNa-ZM-pwy"/>
-                            <constraint firstItem="p8A-ha-PdL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Jg0-9L-czJ"/>
-                            <constraint firstItem="RgM-qk-eZE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="KhL-c4-pQR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p8A-ha-PdL" secondAttribute="trailing" constant="100" id="Oio-eo-1J3"/>
+                            <constraint firstItem="p8A-ha-PdL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9d7-Az-jsv"/>
+                            <constraint firstItem="RgM-qk-eZE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yic-eI-StB"/>
                             <constraint firstItem="qOv-O4-v4S" firstAttribute="top" secondItem="RgM-qk-eZE" secondAttribute="bottom" constant="20" id="abc-rr-fem"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RgM-qk-eZE" secondAttribute="trailing" constant="75" id="auy-Hc-toF"/>
                             <constraint firstItem="RgM-qk-eZE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="dl4-WS-tAR"/>
                             <constraint firstItem="p8A-ha-PdL" firstAttribute="top" secondItem="qOv-O4-v4S" secondAttribute="bottom" constant="20" id="fBb-Gm-FUt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qOv-O4-v4S" secondAttribute="trailing" constant="100" id="qvp-4h-lGt"/>
+                            <constraint firstItem="qOv-O4-v4S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lQC-UT-4aX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -72,14 +69,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpq-g3-Jpw">
-                                <rect key="frame" x="100" y="211" width="175" height="30"/>
+                                <rect key="frame" x="172" y="211" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="I5b-Xa-jey" kind="unwind" unwindAction="unwind:" id="3WK-rK-nY4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0Q-47-Yn3">
-                                <rect key="frame" x="75" y="120" width="225" height="21"/>
+                                <rect key="frame" x="166" y="120" width="43" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -87,11 +84,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="68g-Ez-Odu" firstAttribute="trailing" secondItem="wpq-g3-Jpw" secondAttribute="trailing" constant="100" id="3Ty-iv-Wob"/>
                             <constraint firstItem="wpq-g3-Jpw" firstAttribute="top" secondItem="r0Q-47-Yn3" secondAttribute="bottom" constant="70" id="3hO-Nq-tJ3"/>
-                            <constraint firstItem="wpq-g3-Jpw" firstAttribute="leading" secondItem="68g-Ez-Odu" secondAttribute="leading" constant="100" id="Vcm-V6-904"/>
-                            <constraint firstItem="68g-Ez-Odu" firstAttribute="trailing" secondItem="r0Q-47-Yn3" secondAttribute="trailing" constant="75" id="biy-x9-ycb"/>
-                            <constraint firstItem="r0Q-47-Yn3" firstAttribute="leading" secondItem="68g-Ez-Odu" secondAttribute="leading" constant="75" id="gfc-J1-OA9"/>
+                            <constraint firstItem="wpq-g3-Jpw" firstAttribute="centerX" secondItem="YnH-gz-UBd" secondAttribute="centerX" id="Lg3-f8-zju"/>
+                            <constraint firstItem="r0Q-47-Yn3" firstAttribute="centerX" secondItem="YnH-gz-UBd" secondAttribute="centerX" id="mQ0-IY-lNC"/>
                             <constraint firstItem="r0Q-47-Yn3" firstAttribute="top" secondItem="68g-Ez-Odu" secondAttribute="top" constant="100" id="yPk-WB-dXi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="68g-Ez-Odu"/>
